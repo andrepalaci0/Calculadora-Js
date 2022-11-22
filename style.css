@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+ul {
+    color: white;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* resets */
+
+main {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #202124;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    height: 7em;
+    margin: 2px;
+    padding: 30px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.numbers {
+    max-width: 15%;
+}
+
+.operations button {
+    background-color: whitesmoke;
+}
+
+.display {
+    background-color: cadetblue;
+    height: 7em;
+    width: 29em;
+    margin: 5px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
